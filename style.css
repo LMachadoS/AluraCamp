@@ -1,0 +1,266 @@
+/*reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  background-image: url(imagens/Prancheta-1-cópia-8-100.jpg); 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*Topo da página*/
+.header {
+  width: 100%;
+  height: calc(100% - 192px);
+  height: 76px;
+  padding: 10px 0px;
+  background-color: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 7px 1px 0 #00000040;
+}
+
+.header p {
+  font-family: "Press Start 2P", system-ui;
+  font-size: 20px;
+  font-weight: 400;
+  color: #063a29;
+}
+
+.header img {
+  width: 60px;
+  height: 60px;
+
+}
+
+/*Parte principal da página*/
+.main-container {
+  width: 100%;
+  padding: 60px 40px;
+  display: flex;
+  justify-content: space-around;
+  gap: 70px;
+}
+
+section {
+  padding: 40px;
+  gap: 40px;
+}
+
+/*seção produtos*/
+.secao-produtos {
+  width: 70vw;
+}
+
+h1 {
+  font-family: "Press Start 2P", system-ui;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  color: #17d611;
+}
+
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 20px 0px;
+  overflow: auto;
+  max-height: 60vh;
+  background-color: bisque;
+}
+
+.card {
+  width: calc(100% / 4 - 30px);
+  padding: 10px;
+  background-color: #830f0f;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: -12px 10px 6px 0 #00000040;
+}
+
+.image-container img {
+  width: 100%;
+  height: 170px;
+  border-radius: 5px;
+  border: 3px solid #830f0f;
+}
+
+.card-container__informacao {
+  font-size: 15px;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+}
+
+.card-container__price {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-container__valor p {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.delete-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-button img {
+  width: 18px;
+  height: 18px;
+}
+
+/* seção formulário*/
+.secao-formulario {
+  width: 30vw;
+}
+
+.form-container {
+  width: 100%;
+  max-width: 500px;
+  padding: 10px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background-color: rgb(238, 228, 196);
+}
+
+.form-container input {
+  width: 100%;
+  max-width: 300px;
+  height: 48px;
+  margin: 10px 0;
+  padding-left: 10px;
+  border: 3px solid #40434a;
+  border-radius: 30px;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+::placeholder {
+  color: #101520;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 300px;
+}
+
+.button-container button {
+  width: 130px;
+  height: 40px;
+  font-size: 20px;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 500;
+  text-align: center;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.button-submit {
+  BACKGROUND-COLOR: rgb(47, 99, 55);
+  color: #40434a;
+  border: 3px solid #40434a;
+}
+
+.button-clear {
+  background-color: #ad1818;
+  color: #40434a;
+  border: 3px solid #40434a;
+}
+
+/*rodapé página*/
+.footer-container {
+  height: 120px;
+  background-color: green;
+  text-align: center;
+  color: #40434a;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.footer-container div {
+  font-family: "Press Start 2P", system-ui;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.footer-container p {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 10px;
+
+}
+
+.footer-container span {
+  font-weight: 800;
+}
+
+@media screen and (max-width: 1023px) {
+  /*Parte principal da página*/
+  .container-principal {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    padding: 10px 0;
+    gap: 12px;
+  }
+
+  section {
+    padding: 10px;
+  }
+
+  /*seção produtos*/
+  .secao-produtos {
+    width: 100vw;
+    box-shadow: 0 8px 4px 0 #00000040;
+  }
+
+  .produtos-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+  }
+
+  .card {
+    width: calc(100% / 2 - 20px);
+    height: 258px;
+    padding: 5px;
+  }
+
+  /* seção formulário*/
+  .secao-formulario {
+    width: 80vw;
+    margin: 0 auto;
+  }
+}

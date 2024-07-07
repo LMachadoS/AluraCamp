@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>AluraCamp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <img src="imagens/camping_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" alt="">
+        <p>AluraCamp</p>
+    </header>
+    <main class="main-container">
+        <section class="secao-produtos">
+            <h1>PRODUTOS DISPONIVEIS:</h1>
+            <div data-product="" class="products-container">
+                
+            </div>
+        </section>
+
+        <section class="secao-formulario">
+            <h1>ADICIONAR PRODUTOS</h1>
+            <form class="form-container" data-form>
+                <input data-name placeholder="nome" type="text" >
+                <input data-price placeholder="valor" type="text">
+                <input data-image placeholder="imagem" type="text">
+
+                <div class="button-container">
+                    <button type="submit" class="button-submit" id="button">Arquivar</button>
+                    <button type="reset" class="button-clear" id="button">Excluir</button>
+                </div>
+            </form>
+        </section>
+
+
+    </main>
+    <footer class="footer-container">
+        <div>
+            <h3>AluraCamp</h3>
+        </div>
+            <p>Desenvolvido por<span> Lucas Machado</span></p>
+            <p>Alura Latam - 2024</p>
+    </footer>
+    <script type="module" src="js/controllers/main.js"></script>
+</body>
+</html>

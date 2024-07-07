@@ -1,0 +1,76 @@
+{
+  "products": [
+    {
+      "name": "Barraca Iglu",
+      "price": 145,
+      "image": "https://m.media-amazon.com/images/I/51+knfkKpjL._AC_UL320_.jpg",
+      "id": "1"
+    },
+    {
+      "name": "Barraca joyfox",
+      "price": 300,
+      "image": "https://m.media-amazon.com/images/I/51pXjVSPJIL._AC_UL320_.jpg",
+      "id": "2"
+    },
+    {
+      "name": "Barraca Familia",
+      "price": 1.4,
+      "image": "https://m.media-amazon.com/images/I/61n3k8Fae2L._AC_UL320_.jpg",
+      "id": "3"
+    },
+    {
+      "name": "Morakniv Companion",
+      "price": 123,
+      "image": "https://m.media-amazon.com/images/I/718SGtnOuML._AC_UL320_.jpg",
+      "id": "4"
+    },
+    {
+      "name": "Colchão Inflável",
+      "price": 89,
+      "image": "https://m.media-amazon.com/images/I/41OGYnG1DUL._AC_UL320_.jpg",
+      "id": "5"
+    },
+    {
+      "name": "Guepardo, Colchonete Inflável",
+      "price": 248,
+      "image": "https://m.media-amazon.com/images/I/51Jjz2eYYqS._AC_UL320_.jpg",
+      "id": "6"
+    },
+    {
+      "name": "Caixa Térmica SUV 20L",
+      "price": 60,
+      "image": "https://m.media-amazon.com/images/I/81ORhAvIBaL._AC_UL320_.jpg",
+      "id": "7"
+    },
+    {
+      "name": "Cadeira Dobrável",
+      "price": 76,
+      "image": "https://m.media-amazon.com/images/I/51GZzEKwglL._AC_UL320_.jpg",
+      "id": "8"
+    },
+    {
+      "name": "Pederneira Magnésio",
+      "price": 43,
+      "image": "https://m.media-amazon.com/images/I/51t-8euseVL._AC_UL320_.jpg",
+      "id": "9"
+    },
+    {
+      "name": "Kit Pesca Completo ",
+      "price": 130,
+      "image": "https://m.media-amazon.com/images/I/71cbqLtwhQL._AC_UL320_.jpg",
+      "id": "10"
+    },
+    {
+      "name": "Lampião LED",
+      "price": 42,
+      "image": "https://m.media-amazon.com/images/I/51zzCeeVFML._AC_UL320_.jpg",
+      "id": "11"
+    },
+    {
+      "name": "Fogareiro Frontier",
+      "price": 133,
+      "image": "https://m.media-amazon.com/images/I/51qoigCoDPL._AC_UL320_.jpg",
+      "id": "12"
+    }
+  ]
+}
